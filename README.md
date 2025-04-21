@@ -18,7 +18,19 @@ Muhammad Syarip Qorni
 - (Opsional) virtualenv
 
 ## How to Run
-```bash
-python latihan1.py
-python tebak_angka.py
-python tugas1.py
+
+You can run each Python script using Visual Studio Code or any Python IDE.
+
+### Run using Visual Studio Code
+
+1. Open the folder in VS Code:  
+   `File > Open Folder > Select your project folder`
+
+2. Make sure you have the **Python extension** installed.
+
+3. Open the script file (e.g., `tugas1.py`).
+
+4. Press `Ctrl + F5` to run the script, or click the green "Run" button in the top right corner.
+
+> Make sure Python 3 is installed and added to your system PATH.
+
