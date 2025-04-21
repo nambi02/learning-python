@@ -12,3 +12,13 @@ This repository contains basic Python scripts as part of my journey to learn Pyt
 
 Muhammad Syarip Qorni  
 [GitHub Profile](https://github.com/nambi02)
+
+## Prerequisites
+- Python 3.10+
+- (Opsional) virtualenv
+
+## How to Run
+```bash
+python latihan1.py
+python tebak_angka.py
+python tugas1.py
