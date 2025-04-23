@@ -1,0 +1,11 @@
+=== STRUK BELANJA ===
+Tanggal:2025-04-23 13:46:19
+
+1.Sapu - Rp25000
+2.Ember - Rp15000
+3.TV - Rp2500000
+4.Panadol - Rp2500
+
+--------------------------
+TOTAL BELANJA : Rp2542500
+Terima kasih telah belanja!

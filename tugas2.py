@@ -51,8 +51,11 @@ def tambah_barang():
         print("Kategori tidak valid.")
     
 def lihat_keranjang():
-    for i, item in enumerate(keranjang):
-        print(f"{i+1}.{item['nama']} - Rp{item['harga']}")
+    if not keranjang:
+        print("Keranjang masih kosong.")
+    else:
+        for i, item in enumerate(keranjang):
+            print(f"{i+1}. {item['nama']} - Rp{item['harga']}")
 
 def total_belanja():
     total = sum(item["harga"] for item in keranjang)
