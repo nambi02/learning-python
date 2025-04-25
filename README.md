@@ -1,6 +1,6 @@
 # Learning Python
 
-This repository contains my daily learning journey with Python. Each folder represents one day of practice and covers various fundamental concepts.
+This repository contains my daily learning journey with Python. Each folder represents one day of practice and covers various fundamental concepts and mini projects.
 
 ## Folder Structure
 
@@ -25,6 +25,12 @@ This repository contains my daily learning journey with Python. Each folder repr
 - `data_handler.py`: Functions for reading and writing data to `.json`
 - `belanja.json`: Stores all saved transactions (multi-session support)
 
+### Day 5 – Validation, Delete & Edit Features
+- `main.py`: Enhanced cashier program with input validation and cart control
+- `logic.py`: Updated with `hapus_barang()` and `edit_barang()` functions
+- `data_handler.py`: Handles JSON save/load as before
+- `belanja.json`: Now supports multiple session logs with updated cart features
+
 ## Concepts Covered
 
 - Basic syntax: `print()`, `input()`, variables
@@ -37,6 +43,7 @@ This repository contains my daily learning journey with Python. Each folder repr
 - Data persistence using JSON
 - Modularization: separating code into multiple files
 - Simple transaction history system
+- **Input validation**, **item deletion**, and **editing entries**
 
 ## Author
 
@@ -45,11 +52,17 @@ Muhammad Syarip Qorni
 
 ## How to Run
 
-Open any script in Visual Studio Code, then:
+You can run each Python script using Visual Studio Code or any Python IDE.
 
-1. Navigate to the appropriate folder (`Day1`, `Day2`, etc.)
-2. Open the desired `.py` file (e.g., `main.py` in Day4)
-3. Make sure you have the **Python extension** installed
-4. Run using `Ctrl + F5` or the green "Run" button at the top right
+### Run using Visual Studio Code
+
+1. Open the folder in VS Code:  
+   `File > Open Folder > Select your project folder`
+
+2. Make sure you have the **Python extension** installed.
+
+3. Navigate to the appropriate folder (e.g., `Day5/`) and open `main.py`.
+
+4. Press `Ctrl + F5` to run the script, or click the green "Run" button in the top right corner.
 
 > 💡 Ensure Python 3.10+ is installed and added to your system PATH.
