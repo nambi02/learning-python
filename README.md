@@ -37,6 +37,15 @@ This repository contains my daily learning journey with Python. Each folder repr
 - Transactions saved to `belanja_gui.json`
 - Built using `tkinter`, featuring messageboxes for better user interaction
 
+### Day 7 – GUI Cashier Enhancement
+- `kasir_gui_day7.py`: Upgraded version of cashier app with improved layout and styling
+- Features:
+  - Structured layout using `grid()`
+  - Custom button colors and font styling
+  - Window size setting (`geometry()`)
+  - User-friendly pop-up messages
+- Transactions saved to `Day 7/belanja_gui.json`
+
 ## Concepts Covered
 
 - Basic syntax: `print()`, `input()`, variables
@@ -51,6 +60,7 @@ This repository contains my daily learning journey with Python. Each folder repr
 - Simple transaction history system
 - Input validation, item deletion, and editing entries
 - **Building a GUI application** with `tkinter`
+- **Enhancing GUI applications** with grid layout and styling
 
 ## Author
 
@@ -68,7 +78,7 @@ You can run each Python script using Visual Studio Code or any Python IDE.
 
 2. Make sure you have the **Python extension** installed.
 
-3. Navigate to the appropriate folder (e.g., `Day6/`) and open the desired `.py` file.
+3. Navigate to the appropriate folder (e.g., `Day7/`) and open the desired `.py` file.
 
 4. Press `Ctrl + F5` to run the script, or click the green "Run" button in the top right corner.
 
