@@ -53,12 +53,12 @@ root.configure(bg="#9E9E9E")  # background color window
 
 font_settings=("Arial", 12)
 
-label_nama = tk.Label(root, text="Nama Barang:", font=font_settings)
+label_nama = tk.Label(root, text="Nama Barang :", font=font_settings)
 label_nama.grid(row=0, column=0, pady=10, padx=10, sticky="w")
 entry_nama = tk.Entry(root, font=font_settings)
 entry_nama.grid(row=0, column=1, pady=10, padx=10)
 
-label_harga = tk.Label(root, text="Harga Barang:", font=font_settings)
+label_harga = tk.Label(root, text="Harga Barang :", font=font_settings)
 label_harga.grid(row=1, column=0, pady=10, padx=10, sticky="w")
 entry_harga = tk.Entry(root, font=font_settings)
 entry_harga.grid(row=1, column=1, pady=10, padx=10)
